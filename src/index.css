@@ -145,7 +145,7 @@ body{
   padding-top: 109px;
   max-width: 1102px;
   color: #000;
-  font-family: Proxima Nova, serif;
+  font-family: Proxima Nova, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -156,7 +156,7 @@ body{
 .about__title {
   margin-top: 88px;
   color: #000;
-  font-family: Lenora LC-Trial, serif;
+  font-family: Lenora LC-Trial, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -168,7 +168,7 @@ body{
 .about__text {
   max-width: 1102px;
   color: #000;
-  font-family: Proxima Nova, serif;
+  font-family: Proxima Nova, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -201,18 +201,23 @@ body{
 .about__img{
   margin-bottom: 25px;
 }
+.about{
+  padding-bottom: 96px;
+  padding-top: 24px;
+}
 
 .choose-link{
-  max-width: 250px;
-}
-.choose__img{
   display: flex;
   flex-direction: column;
-  gap: 29px;
-  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.choose__img{
   margin-bottom: 29px;
 }
 .choose__item__title{
+  width: 276px;
   color: #000;
   text-align: center;
   font-family: Proxima Nova, sans-serif;
@@ -231,7 +236,7 @@ body{
 .choose_title{
   text-align: center;
   color: #000;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -244,7 +249,8 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-}
+} 
+
 .category__container{
   max-width: 1388px;
 }
